@@ -25,4 +25,10 @@ Enter a number: 36
 Enter a number: 16
 16 is not frue
 """
-
+num1 = float( input("Enter a number: "))
+div6 = (num1%6)
+div8 = (num1%8)
+if div6 == 0 and div8 != 0:
+    print(f"{num1} is frue")
+else:
+    print(f"{num1} is not frue")

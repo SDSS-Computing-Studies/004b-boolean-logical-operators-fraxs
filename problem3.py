@@ -30,3 +30,6 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+int1 = int( input("Enter the first number: "))
+int2 = int( input("Enter the second number: "))
+int3 = int( input("Enter the third number: "))

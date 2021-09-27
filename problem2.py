@@ -26,3 +26,11 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+int1 = int( input("Enter first number: "))
+int2 = int( input("Enter a second number: "))
+big = max(int1, int2)
+small = min(int1, int2)
+if big%small == 0:
+    print(f"{small} is a factor of {big}")
+else:
+    print(f"{small} is not a factor of {big}")
